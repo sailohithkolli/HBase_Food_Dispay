@@ -1,0 +1,6 @@
+#Your create foods table code goes here
+
+create 'foods', {NAME => 'fact', BLOOMFILTER => 'ROW', COMPRESSION => 'GZ', VERSIONS => 1 }
+#Do not remove the exit call below
+exit
+
